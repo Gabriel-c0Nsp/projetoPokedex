@@ -22,7 +22,7 @@
   background-color: #678fee
 }
 
-.eletric {
+.electric {
   background-color: #f7cf2e
 }
 
@@ -119,7 +119,7 @@
   font-size: .625rem;
   border-radius: 1rem;
   text-align: center;
-  filter:brightness(1.1);
+  filter:brightness(1.2);
 }
 
 .pokemon .detail img {
