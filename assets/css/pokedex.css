@@ -1,3 +1,11 @@
+.content {
+  background-image: url(../css/../../assets_img/pokeball.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 90% 40%; 
+  background-position: top -125px right -110px;
+}
+
 .pokemons {
   display: grid;
   grid-template-columns: 1fr;

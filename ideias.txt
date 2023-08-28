@@ -1,0 +1,7 @@
+Mudanças relacionadas a estética: 
+
+1 - adicionar o fundo (pokebola) como na foto original
+2 - hover que aumenta tamanho da ilustração do pokemon 
+3 - fundo (pokebola também) no fundo da lista do pokemon
+
+
