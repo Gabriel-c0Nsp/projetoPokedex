@@ -1,7 +1,7 @@
 .content {
   background-image: url(../css/../../assets_img/pokeball.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: cover;
   background-size: 90% 40%; 
   background-position: top -125px right -110px;
 }
@@ -19,15 +19,15 @@
 }
 
 .grass {
-  background-color: #77c850
+  background-color: #81ebb8
 }
 
 .fire {
-  background-color: #ee7f30
+  background-color: #fa6b75
 } 
 
 .water {
-  background-color: #678fee
+  background-color: #8cc8ff
 }
 
 .electric {
@@ -98,7 +98,7 @@
   color: #000;
   opacity: .3;
   text-align: right;
-  font-size: .625rem;
+  font-size: .925rem;
 }
 
 .pokemon .name {
@@ -153,6 +153,10 @@
   background-color: #6c79db;
   border: none;
   border-radius: 1rem;
+}
+
+a.openPokemonDetailPage {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 380px) {
