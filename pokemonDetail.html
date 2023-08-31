@@ -26,15 +26,15 @@
     <a href="index.html">
     <img id="goBackIcon" src="assets_img/goBackArrow.png" alt="iconeVoltar">
     </a>
-    <h1 class="pokemonName">Bulbasaur</h1>
-    <p class="pokemonNumber">#001</p>
+    <h1 id="pokemonName">Bulbasaur</h1>
+    <p id="pokemonNumber">#001</p>
     <ul class="pokemonTypes">
       <li class="pokemonType">Grass</li>
       <li class="pokemonType">Poison</li> <!-- deve sumir no JavaScript -->
     </ul>
 
     <div class="pokemonImageSection"> 
-      <img src="#" alt="pokemonName">
+      <img id="pokemonDetailImage" src="#" alt="pokemon">
       <span></span>
 
      </div> 
@@ -65,11 +65,6 @@
 
       <h2 class="infoTitle">Breeding</h2>
 
-      <div class="gender">
-      <h3 class="infoSection">Gender</h3>
-      <p class="info">Male</p>
-      </div>
-
       <div class="eggGroups">
       <h3 class="infoSection">Egg Groups</h3>
       <p class="info">Monster</p>
@@ -87,8 +82,6 @@
 </body>
 
 <!-- arquivo JS -->
-<script src="assets/js/pokemon-model.js"></script>
-<script src="assets/js/poke-api.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/pokemonDetail.js"></script>
 
 </html>
