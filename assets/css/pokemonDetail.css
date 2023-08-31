@@ -1,5 +1,5 @@
 body {
-    background-color: #81ebb8;
+  background-color: #81ebb8;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -36,4 +36,46 @@ img#goBackIcon {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.pokemonType {
+  text-align: center;
+  color: #fff;
+  font-size: 0.850rem;
+  display: inline-block;
+  border-radius: 1rem;
+  border: 0.250rem solid #81ebb8;
+  background-color: #81ebb8;
+  filter: brightness(1.2);
+  list-style: none;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 2px;
+}
+
+.infoContainer {
+  background: #fff;
+  height:604px;
+}
+
+.infoTitle {
+  font-size: 1rem;
+  opacity: 0.8;
+  padding-top: 15px; 
+  padding-left: 2rem;
+}
+
+.species, .height, .weight, .abilities, .gender, .eggGroups, .eggCycle {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.infoSection {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+.info {
+  padding-left: 4rem;
 }
