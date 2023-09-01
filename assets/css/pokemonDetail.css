@@ -7,8 +7,8 @@ body {
   background-image: url(../../assets_img/pokeball.png);
   background-repeat: no-repeat;
   background-attachment: cover;
-  background-size: 85% 32%; 
-  background-position: top 175px right -70px;
+  background-size: 90% 41%; 
+  background-position: top 150px right -70px;
 }
 
 #pokemonName {
@@ -56,6 +56,7 @@ img#goBackIcon {
 }
 
 .infoContainer {
+  padding-top: 1rem;
   background: #fff;
   height:425px;
   border-top-right-radius: 6%;
@@ -69,7 +70,7 @@ img#goBackIcon {
   padding-left: 2rem;
 }
 
-.species, .height, .weight, .abilities, .eggGroups, .eggCycle {
+.height, .weight, .abilities, .eggGroups, .eggCycle {
   display: flex;
   align-items: center;
   padding-left: 2rem;
@@ -80,7 +81,8 @@ img#goBackIcon {
   opacity: 0.5;
 }
 
-.info {
+#infoHeight, #infoWeight, #infoAbilities, #infoEggGroups, #infoEggCycle {
+  display: inline-flex;
   padding-left: 4rem;
 }
 
