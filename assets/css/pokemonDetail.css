@@ -12,6 +12,7 @@ body {
 }
 
 #pokemonName {
+  text-transform: capitalize;
   color: #fff;
   padding-top: 5.25rem;
   font-size: 40px;
@@ -84,6 +85,10 @@ img#goBackIcon {
 #infoHeight, #infoWeight, #infoAbilities, #infoEggGroups, #infoEggCycle {
   display: inline-flex;
   padding-left: 4rem;
+}
+
+#infoAbilities {
+  list-style-type: none;
 }
 
 #pokemonDetailImage {
